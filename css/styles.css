@@ -82,6 +82,33 @@ body {
     
 }
 
+.formularios {
+    background-color: greenyellow;
+    margin: 1rem auto;
+    padding: 2rem 1rem 3rem 1rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50px;
+}
+
+.formularios h1{
+    text-align: center;
+}
+
+.formularios input {
+ width: 90%;
+}
+
+.formularios button {
+    display: block;
+    width: 50%;
+    margin: 3rem auto 1rem auto;
+    border-radius: 50px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
 @media (min-width: 768px) {
     .header nav {
         display: flex;
@@ -112,4 +139,5 @@ body {
         display: block;
         margin: 0 auto 1rem auto;
     }
+
 }

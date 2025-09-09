@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/functions.js"></script>
 </head>
 <body>
     <header class="header">
@@ -18,8 +19,21 @@
     </nav>
   </header>
   <main>
-    <div class="">
-
+    <div class="formularios">
+      <form id="formulario">
+      <h1>Datos de Contacto</h1>
+      <h3>Nombre completo: </h3>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre aquí">
+      <h3>Correo electrónico: </h3>
+      <input type="email" id="correo" placeholder="example@email.com">
+      <h3>Número de celular: </h3>
+      <input type="number" id="celular" placeholder="1234567890">
+      <h3>Contraseña:</h3>
+      <input type="password" id="contraseña" placeholder="Contraseña segura por favor -_-">
+      <h3>Confirmar Contraseña: </h3>
+      <input type="password" id="confirmar" placeholder="Vuelve a escribir la contraseña">
+      <button type="button" onclick="validarformulario()"> Enviar </button>
+      </form>
     </div>
   </main>
 </body>
